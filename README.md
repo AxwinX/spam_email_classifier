@@ -16,7 +16,7 @@ The classifier utilizes the following features:
 - **TF-IDF vectorization of email text**
 
 ## Algorithm Used
-The classification is performed using **Logistic Regression**, a simple yet effective algorithm for binary classification tasks. The model is trained using the Scikit-Learn library in Python.
+The classification is performed using **Logistic Regression** (MultinomialNB also tested), a simple yet effective algorithm for binary classification tasks. The model is trained using the Scikit-Learn library in Python.
 
 ## Project Files
 - `spam_email_classification.ipynb` - Jupyter Notebook containing the data preprocessing, feature extraction, model training, and evaluation steps.
